@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .part3{
+            display: flex;
+            justify-content:space-around;
+        }
+        .part{
+            margin-left: 280px;
+        }
+        .my{
+            display: flex;
+        }
+        .my p{
+           padding-left: 15px; 
+           color: grey;
+        }
+        .order{
+            display: flex;
+        }
+        .order h4{
+            padding-left: 15px;
+            color: grey;
+        }
+        .account{
+            display: flex;
+        }
+        .account h4{
+            padding-left: 15px;
+            color: grey;
+        }
+        .payment{
+            display: flex;
+            
+        }
+        .payment h4{
+            padding-left: 15px;
+            color: grey;
+        }
+        .stuff{
+            display: flex;
+        }
+        .stuff h4{
+            padding-left: 15px;
+            color: grey;
+        }
+        .log{
+            display: flex;
+        }
+        .footer{
+            display: flex;
+            background-color:rgb(26, 21, 37);
+            color: white;
+            
+        }
+        .free{
+            display: flex;
+           justify-content: space-around;
+            
+        }
+        .add{
+             background-color:rgb(26, 21, 37);
+             color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="part3">
+    <div class="part">
+    <div class="my">
+        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/profile-pic-male_4811a1.svg">
+        <p>Hello,</p>
+    </div>
+    <div class="order">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDE4Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04LjY5NCAtMTEpIj48ZWxsaXBzZSBjeD0iMjAuNTU3IiBjeT0iMjAiIHJ4PSIyMC41NTciIHJ5PSIyMCIvPjxwYXRoIGZpbGw9IiMyODc0RjEiIGQ9Ik05IDExdjE3LjEwOGMwIC40OTMuNDEuODkyLjkxOC44OTJoNC45M3YtNS4yNTdoLTMuMDMzbDQuOTEyLTQuNzcgNC45NzIgNC44M2gtMy4wMzVWMjloMTIuNDE3Yy41MDcgMCAuOTE4LS40LjkxOC0uODkyVjExSDl6Ii8+PC9nPjwvc3ZnPg==">
+    <h4>MY ORDERS</h4>
+</div>
+<div class="account">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDIyIDIxIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05LjY5NCAtMTApIj48cGF0aCBmaWxsPSIjMjg3NEYwIiBkPSJNMTQuMjc1IDIyLjcwNGMyLjI3Mi0uNDEyIDQuMzQ3LS42MTggNi4yMjUtLjYxOCAxLjg3OCAwIDMuOTUzLjIwNiA2LjIyNS42MThhNS4xNSA1LjE1IDAgMCAxIDQuMjMgNS4wNjhWMzFoLTIwLjkxdi0zLjIyOGE1LjE1IDUuMTUgMCAwIDEgNC4yMy01LjA2OHptMS4yNzQtNy43MjRjMC0yLjU4IDIuMTYzLTQuNjczIDQuODMyLTQuNjczIDIuNjY3IDAgNC44MyAyLjA5MiA0LjgzIDQuNjczIDAgMi41OC0yLjE2MyA0LjY3My00LjgzIDQuNjczLTIuNjcgMC00LjgzMy0yLjA5Mi00LjgzMy00LjY3M3oiLz48ZWxsaXBzZSBjeD0iMjAuNTU3IiBjeT0iMjAiIHJ4PSIyMC41NTciIHJ5PSIyMCIvPjwvZz48L3N2Zz4=">
+    <h4>ACCOUNT SETTINGS</h4>
+</div>
+    <p style="margin-left: 40px;">Profile Information</p>
+    <p style="margin-left: 40px;">Manage Address</p>
+    <p style="margin-left: 40px;">PAN Card Information</p>
+    <div class="payment">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIzIDIyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05LjY5NCAtOSkiPjxlbGxpcHNlIGN4PSIyMC41NTciIGN5PSIyMCIgcng9IjIwLjU1NyIgcnk9IjIwIi8+PHBhdGggZD0iTTcgNmgyOHYyOEg3eiIvPjxwYXRoIGZpbGw9IiMyODc0RjAiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTMxLjUgMjd2MS4xNjdhMi4zNCAyLjM0IDAgMCAxLTIuMzMzIDIuMzMzSDEyLjgzM2EyLjMzMyAyLjMzMyAwIDAgMS0yLjMzMy0yLjMzM1YxMS44MzNBMi4zMzMgMi4zMzMgMCAwIDEgMTIuODMzIDkuNWgxNi4zMzRhMi4zNCAyLjM0IDAgMCAxIDIuMzMzIDIuMzMzVjEzSDIxYTIuMzMzIDIuMzMzIDAgMCAwLTIuMzMzIDIuMzMzdjkuMzM0QTIuMzMzIDIuMzMzIDAgMCAwIDIxIDI3aDEwLjV6TTIxIDI0LjY2N2gxMS42Njd2LTkuMzM0SDIxdjkuMzM0em00LjY2Ny0yLjkxN2MtLjk3IDAtMS43NS0uNzgyLTEuNzUtMS43NXMuNzgtMS43NSAxLjc1LTEuNzVjLjk2OCAwIDEuNzUuNzgyIDEuNzUgMS43NXMtLjc4MiAxLjc1LTEuNzUgMS43NXoiLz48L2c+PC9zdmc+">
+        <h4>PAYMENTS</h4>
+    </div>
+    <p style="margin-left: 40px;">Gift Cards</p>
+    <p style="margin-left: 40px;">Saved UPI</p>
+    <p style="margin-left: 40px;">Saved Cards</p>
+    <div class="stuff">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMyIgaGVpZ2h0PSIxOSIgdmlld0JveD0iMCAwIDIzIDE5Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMyODc0RjAiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTIwLjUgMi43NWgtOUw5LjI1LjVIMi41QTIuMjQ3IDIuMjQ3IDAgMCAwIC4yNiAyLjc1bC0uMDEgMTMuNUEyLjI1NyAyLjI1NyAwIDAgMCAyLjUgMTguNWgxOGEyLjI1NyAyLjI1NyAwIDAgMCAyLjI1LTIuMjVWNWEyLjI1NyAyLjI1NyAwIDAgMC0yLjI1LTIuMjV6bS01LjYyNSAzLjM3NWEyLjI1NyAyLjI1NyAwIDAgMSAyLjI1IDIuMjUgMi4yNTcgMi4yNTcgMCAwIDEtMi4yNSAyLjI1IDIuMjU3IDIuMjU3IDAgMCAxLTIuMjUtMi4yNSAyLjI1NyAyLjI1NyAwIDAgMSAyLjI1LTIuMjV6bTQuNSA5aC05VjE0YzAtMS40OTYgMy4wMDQtMi4yNSA0LjUtMi4yNXM0LjUuNzU0IDQuNSAyLjI1djEuMTI1eiIvPjxwYXRoIGQ9Ik0tMi00aDI3djI3SC0yeiIvPjwvZz48L3N2Zz4=">
+        <h4>MY STUFF</h4>
+    </div>
+    <p style="margin-left: 40px;">My Profile</p>
+    <p style="margin-left: 40px;">My Review & Ratings</p>
+    <p style="margin-left: 40px;">All Notifications</p>
+    <p style="margin-left: 40px;">My Whishlist</p>
+    <div class="log">
+        <img src="https://cdn-icons-png.flaticon.com/128/10903/10903777.png"height="30px"width="30px">
+        <h4 style="padding-left: 15px; color: grey;">LOGOUT</h4>
+    </div>
+    <br>
+    <h5>Frequently Visited:</h5>
+    <p>Track Order
+        Help Center</p>
+    </div>
+    <div class="part2">
+    <div class="personal">
+        <h3>Personal Information</h3>
+        <input type="text">
+        <input type="text">
+        <p>Your Gender</p>
+        <input type="radio">male
+        <input type="radio">female
+    </div>
+    
+    <div class="mail">
+        <h3>Email Address</h3>
+        <input type="email">
+    </div>
+    <div class="num">
+        <h3>Mobile Number</h3>
+        <input type="text">
+    </div>
+    <div class="faq">
+        <h3>FAQs</h3>
+            <h6>What happens when I update my email address (or mobile number)?</h6>
+         <p style="color: grey;">Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email <br> address (or mobile number).
+            <br>
+        <h6>When will my Flipkart account be updated with the new email address (or mobile number)?</h6>
+        <p style="color: grey;">It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.
+            <br>
+            <h6>What happens to my existing Flipkart account when I update my email address (or mobile number)?</h6>
+            
+            <p style="color: grey;">Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue <br>seeing your Order history, saved information and personal details.
+                <h6>Does my Seller account get affected when I update my email address?</h6>
+                <p style="color: grey;">Flipkart has a 'single sign-on' policy. Any changes will reflect in your Seller account also.
+    
+        
+    </div>
+    <div class="dev">
+        <h6 style="color: rgb(5, 116, 252);">Deactivate Account</h6>
+        <br>
+        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/myProfileFooter_4e9fe2.png">
+    </div>
+</div>
+</div>
+<div class="add">
+<div class="footer">
+    <ul type="none">
+        <li><h5 style="color: grey;">ABOUT</h5></li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Flipkart Stories</li>
+        <li>Press</li>
+        <li>Flipkart Wholesale</li>
+        <li>Corporate Information</li>
+    </ul>
+    <ul type="none">
+        <li><h5 style="color: grey;">HELP</h5></li>
+        <li>Payments</li>
+        <li>Shipping</li>
+        <li>Cancellation & Returns</li>
+        <li>FAQ</li>
+        <li>Report Infringement</li>
+    </ul>
+    <ul type="none">
+        <li><h5 style="color: grey;">CONSUMER POLICY</h5></li>
+        <li>Cancellation & Returns</li>
+        <li>Terms Of Use</li>
+        <li>Security</li>
+        <li>Privacy</li>
+        <li>Sitemap</li>
+        <li>Grievance Redressal</li>
+        <li>EPR Compliance</li>
+    </ul>
+    <ul type="none">
+        <li><h5 style="color: grey;">SOCIAL</h5></li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>YouTube</li>
+    </ul>
+    <hr>
+    <ul type="none">
+        <li><h5 style="color: grey;">Mail Us:</h5></li>
+        <li>Flipkart Internet Private Limited,</li>
+        <li>Buildings Alyssa, Begonia &</li>
+        <li>Clove Embassy Tech Village,</li>
+        <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+        <li>Bengaluru, 560103,</li>
+        <li>Karnataka, India</li>
+    </ul>
+    <ul type="none">
+        <li><h5 style="color: grey;">Registered Office Address</h5></li>
+        <li>Flipkart Internet Private Limited,</li>
+        <li>Buildings Alyssa, Begonia &</li>
+        <li>Clove Embassy Tech Village,</li>
+        <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+        <li>Bengaluru, 560103,</li>
+        <li>Karnataka, India</li>
+        <li>CIN : U51109KA2012PTC066107</li>
+        <li>Telephone: 044-45614700</li>
+ </ul>
+</div>
+<hr>
+<div class="free">
+    <p>Become a Seller</p>
+    <p>Advertise</p>
+    <p>Gift Cards</p>
+    <p>Help Center</p>
+    <p>© 2007-2023 Flipkart.com</p>
+    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg">
+</div>
+</div>
+</body>
+</html>
