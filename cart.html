@@ -31,7 +31,7 @@
         }
         .head input::-webkit-input-placeholder{
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 15px;
+            font-size: 17px;
             
         }
         .flipkart{
@@ -112,13 +112,13 @@
         
         .content{
             width: 100%;
-            height: 400px;
+            height: 1000px;
             padding-top: 100px;
             background-color: rgba(211, 211, 211, 0.329);
         }
         .first{
             display: flex;
-            width: 100%;
+            width: 92%;
             height: 70px;
             background-color: #fff;
             border: 1px solid lightgray;
@@ -135,7 +135,6 @@
             padding:30px 185px;
             margin: 0px 140px;
             color: black;
-            border-bottom:4px solid blue ; 
         }
         .second{
             width: 92%;
@@ -152,7 +151,9 @@
             height: 475px;
             overflow: hidden;
         }
-
+        #flipkart{
+            border-bottom: 4px solid blue;
+        }
     </style>
 </head>
 <body>
@@ -179,8 +180,8 @@
 
     <div class="content">
         <div class="first">
-            <a href="./img.html" target="iframe">Flipkart</a>
-            <a href="./grocery.html" target="iframe">Grocery</a>
+            <a href="./img.html" id="flipkart" target="iframe" onclick="getElementById('flipkart').style.borderBottom = '4px solid blue',getElementById('grocery').style.border='none'">Flipkart</a>
+            <a href="./grocery.html" id="grocery" target="iframe" onclick="getElementById('grocery').style.borderBottom= '4px solid blue',getElementById('flipkart').style.border='none'">Grocery</a>
         </div>
         
         <div class="second">
